@@ -1,0 +1,88 @@
+/* FONT IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+.silkscreen {
+  font-family: 'Silkscreen', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+.jetbrainsmono {
+  font-family: 'JetBrains Mono', sans-serif;
+}
+
+/* BOOTSTRAP ICONS IMPORT */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+
+.App {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  margin-bottom: 8%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.scrollbox {
+  height: fit-content;
+  overflow-y: scroll;
+}
+
+.center-content {
+  justify-content: center;
+}
+
+.banner {
+  font-size: 5rem;
+  margin: 3rem 0 3rem 0;
+}
+
+.subtitle{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.pos-bot {
+  position: relative;
+  bottom: 0;
+}

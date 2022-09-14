@@ -1,0 +1,33 @@
+.bs-arrow {
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.btn-home-link {
+    appearance: button;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 1rem;
+    font-size: 1.3rem;
+}
+
+.btn-home-link:hover {
+    background-color: black;
+    color: white;
+    border-style: solid white;
+    border-radius: 15px;
+}
+
+.home-desc {
+    font-size: 2rem;
+}
+.home-list {
+    text-align: right;
+    background-color: #f2f2f2;
+    background-size: fill;
+    padding-right: 6rem;
+}
