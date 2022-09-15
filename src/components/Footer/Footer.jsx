@@ -20,13 +20,13 @@ export default function Footer() {
     <div className="footer-icons">
       <span className="footer-arrow"><BsArrowRightSquareFill /></span>
       <a className="github" href="https://github.com/WeAreRyan" target="_blanke">
-    <span className="footer-icon" href="https://github.com/WeAreRyan" target="_blank"><BsGithub /></span>
+    <span className="footer-icon"><BsGithub /></span>
     </a>
       <a className="linkedIn" href="https://www.linkedin.com/in/ryan-okamoto-9a8b19222/" target="_blanke">
-    <span className="footer-icon" href="www.google.com" target="_blank"><BsLinkedin /></span>
+    <span className="footer-icon"><BsLinkedin /></span>
     </a>
-      <a className="gmail" href="https://github.com/WeAreRyan" target="_blanke">
-    <span className="footer-icon" href="mailto:okamoto.ryan.dev@gmail.com" target="_blank"><BsGoogle /></span>
+      <a className="gmail" href="mailto:okamoto.ryan.dev@gmail.com" target="_blanke">
+    <span className="footer-icon"><BsGoogle /></span>
     </a>
       <span className="copyright">© 2022 Copyright: Ryan Okamoto</span>
 
