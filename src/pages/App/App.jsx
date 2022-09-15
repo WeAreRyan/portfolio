@@ -51,8 +51,8 @@ export default function App() {
 
             <Route path="/*" element={<Navigate to="/" />} />
           </Routes>
-          {/* <Footer /> */}
         </div>
+          <Footer />
       </>
       {/* ) : (
         <AuthPage setUser={setUser} />

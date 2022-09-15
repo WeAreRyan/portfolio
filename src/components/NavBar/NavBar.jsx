@@ -1,7 +1,6 @@
 import "./NavBar.css"
 import { Link } from "react-router-dom";
 import * as userService from "../../utilities/users-service";
-import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from "react-bootstrap/Nav";
 
@@ -17,7 +16,7 @@ export default function NavBar({ user, setUser, aboutToggle, showAbout }) {
 
 
 
-    {/* <div className="container fixed-top silkscreen"> */}
+    <div className="sticky-top">
 
       <Navbar expand="lg" variant="dark" bg="dark" className="nbpadding silkscreen">
           <Navbar.Brand href="/home">Ryan Okamoto</Navbar.Brand>
@@ -29,7 +28,7 @@ export default function NavBar({ user, setUser, aboutToggle, showAbout }) {
           </Nav>
       </Navbar>
 
-    {/* </div> */}
+    </div>
     </>
   );
 }

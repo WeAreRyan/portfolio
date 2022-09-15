@@ -1,3 +1,7 @@
+import "./Footer.css"
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from "react-bootstrap/Nav";
+
 // import {
 //   MDBFooter,
 //   MDBContainer,
@@ -7,8 +11,38 @@
 //   MDBBtn
 // } from 'mdb-react-ui-kit';
 
-// export default function Footer() {
-//   return (
+
+
+export default function Footer() {
+  return (
+<>
+    <div className="fixed-bottom footer">
+    <div className="footer-bar"></div>
+    <div className="footer icons">
+      
+    </div>
+
+    </div>
+    </>
+//     <Navbar expand="lg" variant="dark" bg="dark" className="fixed-bottom footer silkscreen">
+//     <Navbar.Brand href="/home">Ryan Okamoto</Navbar.Brand>
+//     <Nav className="me-auto">
+//       <Nav.Link href="/projects">Projects</Nav.Link>
+//       <Nav.Link href="/work">Work</Nav.Link>
+//       <Nav.Link href="/about">About</Nav.Link>
+//       {/* <Nav.Link onClick={aboutToggle}>{!showAbout ? "About" : "Hide about"}</Nav.Link> */}
+//     </Nav>
+// </Navbar>
+
+
+
+
+
+
+
+
+
+
 //     <div className="container">
 //     <div className="row">
 //     <MDBFooter className='bg-dark text-center text-white fixed-bottom'>
@@ -37,5 +71,7 @@
 //     </MDBFooter>
 //         </div>
 //         </div>
-//   );
-// }
+
+
+  );
+}
