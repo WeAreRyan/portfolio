@@ -1,12 +1,79 @@
 .footer {
     width: 100%;
-    height: 4rem;
+    height: 4.5rem;
     background-color: #1a1a1a;
     position: fixed-bottom;
+    color: white;
+    text-decoration: none;
 }
 
 .footer-bar {
     width: 100%;
     height: .5rem;
     background-color: #4d4d4d;
+}
+
+.footer-icons {
+color: #666666;
+text-align: left;
+padding-left: 5rem;
+padding-top: 5px;;
+}
+
+
+a.github:link {
+    color: inherit;
+    text-decoration: none;
+}
+a.github:visited {
+    color: inherit;
+    text-decoration: none;
+}
+a.github:hover {
+    color: #29a329;
+    text-decoration: none;
+}
+a.linkedIn:link {
+    color: inherit;
+    text-decoration: none;
+}
+a.linkedIn:visited {
+    color: inherit;
+    text-decoration: none;
+}
+a.linkedIn:hover {
+    color: #006bb3;
+    text-decoration: none;
+}
+a.gmail:link {
+    color: inherit;
+    text-decoration: none;
+}
+a.gmail:visited {
+    color: inherit;
+    text-decoration: none;
+}
+a.gmail:hover {
+    color: #b30000;
+    text-decoration: none;
+}
+
+
+.footer-icon {
+    border: solid #404040 2px;
+    border-radius: 10px;
+    padding: 0 .5rem .5rem .5rem;
+    font-size: 2rem;
+    margin: .5rem; 
+}
+.footer-arrow {
+    padding: 0 .5rem .5rem .5rem;
+    font-size: 2rem;
+    margin: .5rem; 
+}
+
+.copyright {
+    position: absolute;
+    right: 1%;
+    top: 40%;
 }

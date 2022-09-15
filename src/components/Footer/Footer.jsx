@@ -1,6 +1,5 @@
 import "./Footer.css"
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from "react-bootstrap/Nav";
+import { BsGithub, BsLinkedin, BsGoogle, BsArrowRightSquareFill } from 'react-icons/bs';
 
 // import {
 //   MDBFooter,
@@ -18,8 +17,19 @@ export default function Footer() {
 <>
     <div className="fixed-bottom footer">
     <div className="footer-bar"></div>
-    <div className="footer icons">
-      
+    <div className="footer-icons">
+      <span className="footer-arrow"><BsArrowRightSquareFill /></span>
+      <a className="github" href="https://github.com/WeAreRyan" target="_blanke">
+    <span className="footer-icon" href="https://github.com/WeAreRyan" target="_blank"><BsGithub /></span>
+    </a>
+      <a className="linkedIn" href="https://www.linkedin.com/in/ryan-okamoto-9a8b19222/" target="_blanke">
+    <span className="footer-icon" href="www.google.com" target="_blank"><BsLinkedin /></span>
+    </a>
+      <a className="gmail" href="https://github.com/WeAreRyan" target="_blanke">
+    <span className="footer-icon" href="mailto:okamoto.ryan.dev@gmail.com" target="_blank"><BsGoogle /></span>
+    </a>
+      <span className="copyright">© 2022 Copyright: Ryan Okamoto</span>
+
     </div>
 
     </div>
