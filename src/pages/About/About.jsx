@@ -4,7 +4,7 @@ export default function About() {
     <div className="aboutMe">
       <div className="row">
         <div className='col-4'>
-        <img className="avatar-img" src="./img/avatar.png" />
+        <img className="avatar-img" src="./img/avatar.png" alt="cartoon of Ryan"/>
     </div>
 
         <div className="col-8 jetbrainsmono">

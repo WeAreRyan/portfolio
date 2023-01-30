@@ -29,7 +29,7 @@ export default function WORK() {
   return (
     <>
 
-{/* <ScrollContainer>
+ {/* <ScrollContainer>
   <ScrollPage>
     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
       <span style={{ fontSize: "30px" }}>Let me show you scroll animation 😀</span>
@@ -65,7 +65,7 @@ export default function WORK() {
       </span>
     </Animator>
   </ScrollPage>
-</ScrollContainer> */}
+</ScrollContainer>  */}
 
 
 
@@ -76,8 +76,8 @@ export default function WORK() {
           <div className="row center-content">
             <h1 className="silkscreen banner">Work History</h1>
 
-            <ScrollPage>
-              <Animator animation={MoveOut(-1000, 0)}>
+            {/* <ScrollPage>
+              <Animator animation={MoveOut(-1000, -0)}> */}
                 <Card style={{ width: "55%" }} className="shadow workCard">
                   <Card.Body>
                     <Card.Title>Customer Support Representative</Card.Title>
@@ -111,8 +111,8 @@ export default function WORK() {
                     </ListGroup>
                   </Card.Body>
                 </Card>
-              </Animator>
-            </ScrollPage>
+              {/* </Animator>
+            </ScrollPage> */}
 
             <Card style={{ width: "55%" }} className="shadow workCard">
               <Card.Body>
