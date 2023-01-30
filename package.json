@@ -1,6 +1,7 @@
 {
   "name": "ryan-okamoto-portfolio",
   "version": "0.1.0",
+  "homepage": "https://weareryan.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -48,5 +49,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:3001"
+  "proxy": "http://localhost:3001",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
