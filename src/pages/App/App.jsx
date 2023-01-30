@@ -10,7 +10,7 @@ import Work from "../Work/Work";
 import Projects from "../Projects/Projects";
 import About from "../About/About";
 import AboutMe from "../../components/AboutMe/AboutMe";
-import Footer from "../../components/Footer/Footer"
+import Footer from "../../components/Footer/Footer";
 
 export default function App() {
   const [user, setUser] = useState(getUser());
@@ -27,13 +27,16 @@ export default function App() {
 
   return (
     <main className="App">
-      
       {/* {user ? ( */}
       <>
-        <NavBar user={user} setUser={setUser} aboutToggle={aboutToggle} showAbout={showAbout} />
+        <NavBar
+          user={user}
+          setUser={setUser}
+          aboutToggle={aboutToggle}
+          showAbout={showAbout}
+        />
         <div className="container-fluid overflow-auto">
-        {showAbout && (
-          <AboutMe /> )}
+          {showAbout && <AboutMe />}
           <Routes>
             <Route path="/" element={<Home user={user} setUser={setUser} />} />
             <Route
@@ -49,10 +52,15 @@ export default function App() {
               element={<About user={user} setUser={setUser} />}
             />
 
+            <Route
+              path="/about"
+              element={<About user={user} setUser={setUser} />}
+            />
+
             <Route path="/*" element={<Navigate to="/" />} />
           </Routes>
         </div>
-          <Footer />
+        <Footer />
       </>
       {/* ) : (
         <AuthPage setUser={setUser} />

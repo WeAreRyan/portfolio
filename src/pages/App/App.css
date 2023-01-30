@@ -70,6 +70,7 @@ main {
 
 .center-content {
   justify-content: center;
+  align-items: center;
 }
 
 .banner {
